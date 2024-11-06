@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mink.css">
+</head>
+<body>
+    <header class="header box">
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </header>
+    <nav class="navbar box">
+        <div id="btn" class="img-box">
+            <img class="img" src="/learning/home.svg" alt="">
+            <p class="img-text">Home</p>
+        </div>
+        <div class="img-box">
+
+            <img class="img" src="./explore.svg" alt="">
+            <p class="img-text">Explore</p>
+        </div>
+        <div class="img-box">
+
+            <img class="img" src="/learning/library.svg" alt="">
+            <p class="img-text">
+                Library
+            </p>
+        </div>
+        <div class="img-box">
+            <img class="img" src="./subscriptions.svg" alt="">
+            <p class="img-text">
+                Subscription
+            </p>
+        </div>
+        <div class="img-box">
+            <img class="img" src="./youtube-music.svg" alt="">
+            <p class="img-text">
+                YouTube music
+            </p>
+        </div>
+    </nav>
+    <main class="main box">main
+ <!-- <button id="btn">click</button> -->
+ <p id="class">hi</p>
+        <div id="page" class="page-display">hello</div>
+    </main>
+    <aside class="aside box">
+        aside
+    </aside>
+    <footer class="footer box">
+        footer
+    </footer>
+    <script>
+        const btn =document.querySelector('#btn');
+        const display = document.querySelector('#page');
+      function remove(){
+        const intro = prompt('enter your name');
+    display.textContent=intro;
+      }
+      btn.addEventListener('click',remove);
+   
+      
+    </script>
+</body>
+</html>
